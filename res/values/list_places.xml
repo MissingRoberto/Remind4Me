@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_array">
+        <item>casa</item>
+        <item>clase</item>
+        <item>trabajo</item>
+        <item>otro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemindMe</string>
+    <string name="action_settings">Configuración</string>
+    <string name="conf_radious">Radio de notificación </string>
+    <string name="conf_radious_val">Introduzca el radio en metros</string>
+    <string name="conf_expiration_val">Introduzca el tiempo</string>
+    <string name="config_units">metros</string>
+    <string name="help">Ayuda</string>
+    <string name="about">Acerca de</string>
+    <string name="elem_place_name">Lugar</string>
+    <string name="elem_name">Mi recordatorio</string>
+    <string name="aboutus_text">Autores RemindMe:</string>
+    <string name="aboutus_authors">Rubén Díaz Vega y Roberto Jiménez Sánchez</string>
+    <string name="help_text">
+<![CDATA[ En esta página de ayuda le indicaremos en breves pasos cómo utilizar nuestra aplicación.
+
+La aplicación se basa en alertas o recordatorios controlados por geolocalización. El usuario podrá crear "NOTAS" incluyendo unas coordenadas, de forma que al acercarse a ese punto saltará una notificación en el teléfono.
+        
+Desde la pantalla principal tiene acceso a todas las opciones. En ella podrá ver una lista de todos los recordatorios creados, apareciendo marcados con un tick aquellos que están activos.
+
+Para activar o desactivar un recordatorio de la lista es suficiente con pulsar el checkbox para que aparezca el tick o desaparezca. 
+
+Para crear un nuevo recordatorio, debe pulsar el botón "AGREGAR" en la esquina superior derecha. Pulsando este botón accederá a la creación de un nuevo recordatorio. Tendrá que definir un título, nombre del lugar, coordenadas geográficas, descripción y seleecionar un icono. Tenga en cuenta que para guardar los cambios no ha de haber ningún campo vacío. Una vez introducidos los datos, para guardar el recordatorio deberá pulsar el botón "save", también en la esquina superior derecha.Si pulsa la tecla "atrás" se cancelará la creación de un nuevo elemento y volverá a la pantalla principal.
+
+Si quiere eliminar uno o todos los recordatorios, debe mantener una pulsación larga sobre el elemento a borrar y seleccionar la opción correspondiente en el menú contextual.
+
+Si desea editar un recordatorio, tras una pulsación larga sobre el mismo deberá elegir la opción "EDITAR". Esto le lĺevará a una ventana igual que la de creación de un nuevo recordatorio, con la salvedad de que los campos del formulario aparecerán completados con la información del recordatorio en cuestión. Al igual que en la creación, no debe dejar ningún campo vacío y, tras realizar los cambios que considere oportunos, deberá pulsar el botón "save", en la esquina superior derecha. Pulsando la tecla "atrás" se cancela la edición del recordatorio.]]>
+    </string>
+    <string name="create_name">Título</string>
+    <string name="create_place">Lugar</string>
+    <string name="create_coord">Coordenadas</string>
+    <string name="create_descrip">Descripción</string>
+    <string name="title_val">Nombre del recordatorio</string>
+    <string name="place_val">Lugar del recordatorio</string>
+    <string name="lat_val">Latitud</string>
+    <string name="long_val">Longitud</string>
+    <string name="descrip_val">Breve descripción</string>
+    <string name="list_bar">Recordatorios</string>
+    <string name="settings_bar">Configuración</string>
+    <string name="aboutus_bar">Acerca de</string>
+    <string name="help_bar">Ayuda</string>
+    <string name="create_bar">Nuevo recordatorio</string>
+    <string name="context_delete">Eliminar</string>
+    <string name="context_delete_all">Eliminar todos</string>
+    <string name="context_edit">Editar</string>
+    <string name="context_send">Compartir</string>
+    <string name="conf_expiration">Expiración alertas</string>
+    <string name="empty_field">Rellene todos los campos</string>
+    <string name="provider_enable">Proveedor disponible</string>
+    <string name="provider_disable">Proveedor disponible</string>
+    <string name="delete_title">Confirmacion</string>
+    <string name="delete_msg">¿Esta seguro de que quiere eliminar? </string>
+    <string name="delete_msg_all">¿Esta seguro de que quiere eliminar todos? </string>
+    <string name="new_config">Configuración actualizada </string>
+    <string name="new_elem">Elemento creado satisfactoriamente </string>
+    <string name="pref_alerts_settings">Alertas </string>
+    <string name="pref_user_profile">Perfil de usuario </string>
+    <string name="pref_user_name">Nombre </string>
+    <string name="pref_user_name_summary">Escriba su nombre de usuario </string>
+    <string name="pref_alert_radious">Radio </string>
+    <string name="pref_alert_radious_summary">Teclee radio en metros</string>
+    <string name="pref_alert_expiration">Tiempo alertas </string>
+    <string name="pref_alert_expiration_summary">Teclee tiempo en milisegundos</string>
+    <string name="pref_alerts_setting">Alertas</string>
+    <string name="empty_list">Pulse en añadir para crear sus alertas personalizadas</string>
+    <string name="dialog_title">Descripción</string>
+    <string name="dialog_accept">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="element_updated">Elemento actualizado</string>
+    <string name="add_button_title">Agregar</string>
+    <string name="share_button_title">Compartir</string>
+    <string name="send_chooser">Elige cliente de correo</string>
+    <string name="speak">Speak</string>
+
+</resources>

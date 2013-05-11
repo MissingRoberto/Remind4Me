@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_user_profile" >
+        <EditTextPreference
+            android:key="prefUsername"
+            android:summary="@string/pref_user_name_summary"
+            android:title="@string/pref_user_name" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_alerts_setting" >
+        <EditTextPreference
+            android:defaultValue="200"
+            android:key="prefAlertRadious"
+            android:numeric="integer"
+            android:summary="@string/pref_alert_radious_summary"
+            android:title="@string/pref_alert_radious" />
+        <EditTextPreference
+            android:defaultValue="-1"
+            android:key="prefAlertExpiration"
+            android:numeric="integer"
+            android:summary="@string/pref_alert_expiration_summary"
+            android:title="@string/pref_alert_expiration" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

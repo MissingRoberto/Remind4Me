@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swcm.remind4me"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />   
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />   
+    <uses-permission android:name="android.permission.INTERNET" />   
+    <uses-permission android:name="android.permission.VIBRATE" />   
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.swcm.remindme.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.swcm.remindme.ListRemindsActivity"
+            android:label="@string/list_bar" >
+            <intent-filter>
+                <action android:name="myAction" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+           
+        </activity>
+        <activity
+            android:name="com.swcm.remindme.SettingsActivity"
+            android:label="@string/settings_bar" >
+            <intent-filter>
+                <action android:name="myAction4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.swcm.remindme.AboutUsActivity"
+            android:label="@string/aboutus_bar" >
+            <intent-filter>
+                <action android:name="myAction3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.swcm.remindme.HelpActivity"
+            android:label="@string/help_bar" >
+            <intent-filter>
+                <action android:name="myAction2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.swcm.remindme.CreateActivity"
+            android:label="@string/create_bar" >
+            <intent-filter>
+                <action android:name="actionAdd" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <receiver android:name="com.swcm.remindme.AlertsReceiver">
+            <intent-filter>
+                <action android:name="ALERT_ACTION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
